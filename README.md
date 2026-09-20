@@ -3,7 +3,8 @@
 **Course:** ShP-2216 Software Design Patterns (2026-2027)  
 **Institution:** Astana IT University | School of Software Engineering  
 **Student:** Dias Tursynbay  
-**Repository:** [https://github.com/HumbleCherry10/SDP-assignment2.git](https://github.com/HumbleCherry10/SDP-assignment2.git)
+**Group:** SE-2537  
+**Repository:** [https://github.com/HumbleCherry10/SDP-assignment2.git](https://github.com/HumbleCherry10/SDP-assignment2.git)  
 
 ---
 
@@ -46,8 +47,7 @@ SDP/
 ├── uml/                              # UML Diagrams
 │   ├── factory_method.md              # Factory Method Mermaid UML
 │   └── abstract_factory.md            # Abstract Factory Mermaid UML
-├── README.md                         # Documentation & build instructions
-└── REPORT.md                         # Moodle submission report text draft
+└── README.md                         # Documentation & build instructions
 ```
 
 ---

@@ -8,3 +8,7 @@ out/
 *.iml
 .vscode/
 .DS_Store
+
+# Reports and PDF documents (not uploaded to Git per instructions)
+*.pdf
+REPORT.md
