@@ -101,10 +101,10 @@ java -cp bin com.logistics.app.Main
 
 | Check | Input | Expected Result | Actual Output | Status |
 |---|---|---|---|---|
-| **1** | `ROAD + WINDOWS` | Truck delivery; Windows button and checkbox | Delivery mode: ROAD<br>UI platform: WINDOWS<br>Rendering Windows button<br>Rendering Windows checkbox<br>Truck delivers laboratory equipment to Aktau warehouse | **PASS** |
-| **2** | `SEA + WINDOWS` | Ship delivery; Windows button and checkbox | Delivery mode: SEA<br>UI platform: WINDOWS<br>Rendering Windows button<br>Rendering Windows checkbox<br>Ship delivers laboratory equipment to Aktau warehouse | **PASS** |
-| **3** | `ROAD + MACOS` | Truck delivery; macOS button and checkbox | Delivery mode: ROAD<br>UI platform: MACOS<br>Rendering macOS button<br>Rendering macOS checkbox<br>Truck delivers laboratory equipment to Aktau warehouse | **PASS** |
-| **4** | `SEA + MACOS` | Ship delivery; macOS button and checkbox | Delivery mode: SEA<br>UI platform: MACOS<br>Rendering macOS button<br>Rendering macOS checkbox<br>Ship delivers laboratory equipment to Aktau warehouse | **PASS** |
+| **1** | `ROAD + WINDOWS` | Truck delivery; Windows button and checkbox | Delivery mode: ROAD<br>UI platform: WINDOWS<br>Rendering Windows button<br>Rendering Windows checkbox<br>Truck delivers laboratory equipment to Astana warehouse | **PASS** |
+| **2** | `SEA + WINDOWS` | Ship delivery; Windows button and checkbox | Delivery mode: SEA<br>UI platform: WINDOWS<br>Rendering Windows button<br>Rendering Windows checkbox<br>Ship delivers laboratory equipment to Astana warehouse | **PASS** |
+| **3** | `ROAD + MACOS` | Truck delivery; macOS button and checkbox | Delivery mode: ROAD<br>UI platform: MACOS<br>Rendering macOS button<br>Rendering macOS checkbox<br>Truck delivers laboratory equipment to Astana warehouse | **PASS** |
+| **4** | `SEA + MACOS` | Ship delivery; macOS button and checkbox | Delivery mode: SEA<br>UI platform: MACOS<br>Rendering macOS button<br>Rendering macOS checkbox<br>Ship delivers laboratory equipment to Astana warehouse | **PASS** |
 | **5** | `AIR + WINDOWS` | Clear validation message; no delivery | `Error: Unsupported or missing delivery mode 'AIR'. Allowed values: ROAD, SEA.` | **PASS** |
 | **6** | `ROAD + LINUX` | Clear validation message; no UI construction | `Error: Unsupported or missing UI platform 'LINUX'. Allowed values: WINDOWS, MACOS.` | **PASS** |
 
